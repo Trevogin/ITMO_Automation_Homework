@@ -1,12 +1,7 @@
 # задача 1
 print('задача 1')
-a: int
-b: float
-c: str
-d: list
-e: bool
 
-def task_1(a, b, c, d, e):
+def task_1(a: int, b: float, c: str, d: list, e: bool) -> str:
     return a, b, c, d, e
 
 print(task_1(1, 2.5, 'word', [1,2], True))
@@ -20,6 +15,7 @@ def task_2(a: int) -> int:
 
 print (task_2(a))
 print ('Последовательность Фибоначчи' + '\n')
+
 
 # Задача 3
 print('задача 3')
